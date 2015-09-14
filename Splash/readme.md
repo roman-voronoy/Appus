@@ -15,7 +15,6 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 
 ##Usage example:
 
-```
 
     public class MainActivity extends Activity {
 
