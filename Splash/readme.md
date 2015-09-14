@@ -34,17 +34,21 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 
 Set custom color of background:
 
+
         splash.setBackgroundColor(getResources().getColor(R.color.blue));
 
 Set custom image for background:
+
 
         splash.setBackgroundImage(getResources().getDrawable(R.drawable.default_splash_image));
 
 Set custom image for splash:
 
+
         splash.setSplashImage(getResources().getDrawable(R.drawable.default_splash_image));
 
 Set custom color of splash image:
+
 
         splash.setSplashImageColor(getResources().getColor(R.color.blue));
 
