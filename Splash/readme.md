@@ -13,8 +13,7 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 
 # Getting Started
 
-```
-Usage example:
+##Usage example:
 
 ```
 
@@ -33,19 +32,19 @@ Usage example:
 
 # Customization
 
-##Set custom color of background:
+Set custom color of background:
 
         splash.setBackgroundColor(getResources().getColor(R.color.blue));
 
-##Set custom image for background:
+Set custom image for background:
 
         splash.setBackgroundImage(getResources().getDrawable(R.drawable.default_splash_image));
 
-##Set custom image for splash:
+Set custom image for splash:
 
         splash.setSplashImage(getResources().getDrawable(R.drawable.default_splash_image));
 
-##Set custom color of splash image:
+Set custom color of splash image:
 
         splash.setSplashImageColor(getResources().getColor(R.color.blue));
 
