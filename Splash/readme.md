@@ -13,14 +13,6 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 
 # Getting Started
 
-Add Gradle dependency:
-
-```gradle
-dependencies {
-   compile 'com.appus.splash:0.1.0'
-}
-```
-
 ```
 Usage example:
 
@@ -57,7 +49,8 @@ Usage example:
 
         splash.setSplashImageColor(getResources().getColor(R.color.blue));
 
-```
+
+# Info
 
 Developed By
 ------------
