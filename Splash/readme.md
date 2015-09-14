@@ -13,7 +13,7 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 - [Progress](https://github.com/rey5137/Material/wiki/Progress)
     - Circular
 
-        ![](https://github.com/rey5137/Material/raw/master/image/progress_circular_indeterminate.gif) ![](https://github.com/rey5137/Material/raw/master/image/progress_circular_determinate.gif)
+        ![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash.gif)
     - Linear
 
         ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_indeterminate.gif)
