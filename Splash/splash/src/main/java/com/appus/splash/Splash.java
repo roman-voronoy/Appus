@@ -264,36 +264,60 @@ public class Splash {
     public static class Builder {
         private Splash mSplashInstance;
 
+        /**
+         * Create builder for custom splash.
+         * @param activity - Activity context
+         * @param actionBar - Used actionbar. Need to properly hide it during splash.
+         */
         public Builder(Activity activity, ActionBar actionBar) {
             mSplashInstance = new Splash(activity, actionBar);
         }
 
+        /**
+         * Set image, that will be displayed at center of splash.
+         * @param splashImage drawable with picture
+         * @return Builder instance
+         */
         public Builder setSplashImage(Drawable splashImage) {
             mSplashInstance.setSplashImage(splashImage);
             return this;
         }
 
+        /**
+         * Set color of center splash image
+         * @param color Color that will colorify image
+         * @return Builder instance
+         */
         public Builder setSplashImageColor(int color) {
             mSplashInstance.setSplashImageColor(color);
             return this;
         }
 
+        /**
+         * Set color of background behind splash image
+         * @param color splash background color
+         * @return Builder instance
+         */
         public Builder setBackgroundColor(int color) {
             mSplashInstance.setUseColorInSplashBackground(true);
             mSplashInstance.setBackgroundColor(color);
             return this;
         }
 
+        /**
+         *
+         * @param image
+         * @return Builder instance
+         */
         public Builder setBackgroundImage(Drawable image) {
             mSplashInstance.setUseColorInSplashBackground(false);
             mSplashInstance.setBackgroundImage(image);
             return this;
         }
 
-        public Splash create() {
-            return mSplashInstance;
-        }
-
+        /**
+         * Run splash animation
+         */
         public void perform() {
             mSplashInstance.perform();
         }

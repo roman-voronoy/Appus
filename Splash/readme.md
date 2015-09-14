@@ -8,10 +8,10 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 * [Donation](#donation)
 * [Contributing](#contributing)
 
-## Demo
+# Demo
 ![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash_demo.gif)
 
-## Getting Started
+# Getting Started
 
 Add Gradle dependency:
 
@@ -38,6 +38,27 @@ Usage example:
             splash.perform();
         }
     }
+
+```
+
+# Customization
+
+```
+##Set custom color of background:
+
+        splash.setBackgroundColor(getResources().getColor(R.color.blue));
+
+##Set custom image for background:
+
+        splash.setBackgroundImage(getResources().getDrawable(R.drawable.default_splash_image));
+
+##Set custom image for splash:
+
+        splash.setSplashImage(getResources().getDrawable(R.drawable.default_splash_image));
+
+##Set custom color of splash image:
+
+        splash.setSplashImageColor(getResources().getColor(R.color.blue));
 
 ```
 
