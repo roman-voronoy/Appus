@@ -8,10 +8,69 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 * [Donation](#donation)
 * [Contributing](#contributing)
 
-## Demo
-- [Preview]
+##Features
+- [Progress](https://github.com/rey5137/Material/wiki/Progress)
+    - Circular
 
-        ![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash_demo.gif)
+
+    - Linear
+
+        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_indeterminate.gif)
+        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_determinate.gif)
+        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_query.gif)
+        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_buffer.gif)
+
+- [Preview](https://github.com/rey5137/Material/wiki/Button)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/button_raise_touch.gif) ![](https://github.com/rey5137/Material/raw/master/image/button_raise_wave.gif)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/fab_image.gif) ![](https://github.com/rey5137/Material/raw/master/image/fab_line.gif)
+
+- [Switch](https://github.com/rey5137/Material/wiki/Switch)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/cb.gif)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/rb.gif)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/switch.gif)
+
+- [Slider](https://github.com/rey5137/Material/wiki/Slider)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/slider_continuous.gif)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/slider_discrete.gif)
+
+- [Spinner](https://github.com/rey5137/Material/wiki/Spinner)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/spn.gif)
+
+- [Text Field](https://github.com/rey5137/Material/wiki/Text-Field)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/textfield.gif)
+
+- [TabPageIndicator](https://github.com/rey5137/Material/wiki/TabPageIndicator)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/tpi.gif)
+
+- [SnackBar](https://github.com/rey5137/Material/wiki/SnackBar)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/snackbar.png)
+
+- [Dialog](https://github.com/rey5137/Material/wiki/Dialog)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/dialog_3.png) ![](https://github.com/rey5137/Material/raw/master/image/dialog_4.png)
+
+- [BottomSheetDialog](https://github.com/rey5137/Material/wiki/BottomSheet)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/bottomsheet.gif)
+
+- [Dynamic theme](https://github.com/rey5137/Material/wiki/Theme)
+
+    ![](https://github.com/rey5137/Material/raw/master/image/theme.gif)
+
+## Demo
+
+    ![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash_demo.gif)
 
 ## Getting Started
 
