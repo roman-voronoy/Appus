@@ -25,43 +25,31 @@ dependencies {
 Usage example:
 
 ```
-public class MainActivity extends Activity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public class MainActivity extends Activity {
 
-        .... your onCreate code here ....
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
 
-        Splash.Builder splash = new Splash.Builder(this, getActionBar());
-        splash.perform();
+            .... your onCreate code here ....
+
+            Splash.Builder splash = new Splash.Builder(this, getActionBar());
+            splash.perform();
+        }
     }
-}
 
 ```
-
-## Donation
-You can support the project and thank the author for his hard work.
-
-<a href='https://pledgie.com/campaigns/28714'><img alt='Click here to lend your support to: Support Material Library project. and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/28714.png?skin_name=chrome' border='0' ></a>
-
-**PayPal**
-- [Donate] (https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=pea5137%40gmail%2ecom&lc=US&item_name=Rey%20Pham&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
-
-## Contributing
-Want to contribute? You are welcome!
-Note that all pull request should go to `dev` branch.
 
 Developed By
 ------------
 
-* Rey Pham - <pea5137@gmail.com>
-
+* Igor Malytsky, Appus Studio
 
 License
 --------
 
-    Copyright 2015 Rey Pham.
+    Copyright 2015 Appus Studio.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
