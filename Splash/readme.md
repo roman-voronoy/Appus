@@ -17,7 +17,7 @@ Add Gradle dependency:
 
 ```gradle
 dependencies {
-   compile 'com.appus.splash:1.0.0'
+   compile 'com.appus.splash:0.1.0'
 }
 ```
 
@@ -39,11 +39,8 @@ Usage example:
         }
     }
 
-```
-
 # Customization
 
-```
 ##Set custom color of background:
 
         splash.setBackgroundColor(getResources().getColor(R.color.blue));
