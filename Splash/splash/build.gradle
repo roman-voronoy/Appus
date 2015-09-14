@@ -3,7 +3,6 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 23
@@ -26,26 +25,4 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
-}
-
-task sourceJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier "source"
-}
-
-publishing {
-    publications {
-        splash(MavenPublication) {
-            groupId 'com.appus'
-            artifactId 'splash'
-            version '0.1'
-            artifact(sourceJar)
-            artifact("$buildDir/outputs/aar/splash-release.aar")
-        }
-    }
-    repositories {
-        maven {
-            url "$buildDir/repo"
-        }
-    }
 }

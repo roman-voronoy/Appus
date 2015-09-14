@@ -5,8 +5,8 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 
 * [Demo](#demo)
 * [Getting Started](#getting-started)
-* [Donation](#donation)
-* [Contributing](#contributing)
+* [Customization](#customization)
+* [Info](#info)
 
 # Demo
 ![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash_demo.gif)
