@@ -8,69 +8,8 @@ Appus Splash is a tool that allows to easily create nice Splash animation and at
 * [Donation](#donation)
 * [Contributing](#contributing)
 
-##Features
-- [Progress](https://github.com/rey5137/Material/wiki/Progress)
-    - Circular
-
-
-    - Linear
-
-        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_indeterminate.gif)
-        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_determinate.gif)
-        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_query.gif)
-        ![](https://github.com/rey5137/Material/raw/master/image/progress_linear_buffer.gif)
-
-- [Preview](https://github.com/rey5137/Material/wiki/Button)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/button_raise_touch.gif) ![](https://github.com/rey5137/Material/raw/master/image/button_raise_wave.gif)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/fab_image.gif) ![](https://github.com/rey5137/Material/raw/master/image/fab_line.gif)
-
-- [Switch](https://github.com/rey5137/Material/wiki/Switch)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/cb.gif)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/rb.gif)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/switch.gif)
-
-- [Slider](https://github.com/rey5137/Material/wiki/Slider)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/slider_continuous.gif)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/slider_discrete.gif)
-
-- [Spinner](https://github.com/rey5137/Material/wiki/Spinner)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/spn.gif)
-
-- [Text Field](https://github.com/rey5137/Material/wiki/Text-Field)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/textfield.gif)
-
-- [TabPageIndicator](https://github.com/rey5137/Material/wiki/TabPageIndicator)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/tpi.gif)
-
-- [SnackBar](https://github.com/rey5137/Material/wiki/SnackBar)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/snackbar.png)
-
-- [Dialog](https://github.com/rey5137/Material/wiki/Dialog)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/dialog_3.png) ![](https://github.com/rey5137/Material/raw/master/image/dialog_4.png)
-
-- [BottomSheetDialog](https://github.com/rey5137/Material/wiki/BottomSheet)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/bottomsheet.gif)
-
-- [Dynamic theme](https://github.com/rey5137/Material/wiki/Theme)
-
-    ![](https://github.com/rey5137/Material/raw/master/image/theme.gif)
-
 ## Demo
-
-    ![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash_demo.gif)
+![](https://github.com/roman-voronoy/Appus/blob/master/Splash/image/splash_demo.gif)
 
 ## Getting Started
 
@@ -78,37 +17,10 @@ Add Gradle dependency:
 
 ```gradle
 dependencies {
-   compile 'com.github.rey5137:material:1.2.1'
+   compile 'com.appus.splash:1.0.0'
 }
 ```
 
-* Or
-[Download from Maven](https://oss.sonatype.org/content/repositories/releases/com/github/rey5137/material/1.2.1/material-1.2.1.aar)
-
-You can try the SNAPSHOT version:
-
-```gradle
-dependencies {
-   compile 'com.github.rey5137:material:1.2.1.6-SNAPSHOT'
-}
-```
-Make sure to add the snapshot repository:
-
-```gradle
-repositories {
-    maven {
-        url "https://oss.sonatype.org/content/repositories/snapshots"
-    }
-}
-```
-
-AppCompat and CardView library is required by Material library.
-
-```gradle
-dependencies {
-   compile 'com.android.support:appcompat-v7:22.2.1'
-   compile 'com.android.support:cardview-v7:22.2.1'
-}
 ```
 Now you can use any widget in **com.rey.material.widget** package as you wish. For styling, please view [Wiki](https://github.com/rey5137/Material/wiki). Note that default style of widgets depend on theme of AppCompat. Here is an example:
 
