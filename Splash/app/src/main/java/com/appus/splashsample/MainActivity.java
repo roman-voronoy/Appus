@@ -17,17 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView webView = (WebView) findViewById(R.id.web_view);
-        webView.loadUrl("https://github.com/");
+        webView.loadUrl("https://github.com/roman-voronoy/Appus/blob/master/Splash/readme.md");
         Splash.Builder splash = new Splash.Builder(this, getSupportActionBar());
-
-        splash.setBackgroundColor(getResources().getColor(R.color.blue));
-
-        splash.setBackgroundImage(getResources().getDrawable(R.drawable.default_splash_image));
-
-        splash.setSplashImage(getResources().getDrawable(R.drawable.default_splash_image));
-
-        splash.setSplashImageColor(getResources().getColor(R.color.blue));
-
         splash.perform();
     }
 }
